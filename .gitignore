@@ -13,3 +13,7 @@ __pycache__/
 
 # VS Code
 .vscode/
+
+chatbot.db
+chatbot.db-wal
+chatbot.db-shm
