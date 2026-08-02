@@ -27,3 +27,12 @@ graph.add_edge(START, "chat_node")
 graph.add_edge("chat_node", END)
 
 chatbot = graph.compile(checkpointer=checkpointer) 
+
+
+#streaming(generator) - consisits of meta data and message chunk
+#for message_chunk,metadata in chatbot.stream(
+#    {'messages': [HumanMessage(content="Hello, how are you?")]}, 
+#   stream_mode='messages'):
+#    if message_chunk.content:
+#       print(message_chunk.content,end='',flush=True)  
+        
